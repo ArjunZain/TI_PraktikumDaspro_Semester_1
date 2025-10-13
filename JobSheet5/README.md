@@ -1,5 +1,5 @@
 1. Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan operator relasional?
-   \nKarena variabel yang digunakan bertipe boolean
+   Karena variabel yang digunakan bertipe boolean
 2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya?
    Program tidak akan berjalan dan akan langsung selesai
 
