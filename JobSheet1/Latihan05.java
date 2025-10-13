@@ -1,6 +1,6 @@
 public class Latihan05 {
-    {
-public static void main (String[] args)
+
+public static void main (String[] args){
         System.out.println("NIM\tNAMA\tPRODI");
 
         System.out.println("030\tWildan\tTeknik Informatika");
