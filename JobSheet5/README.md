@@ -1,11 +1,15 @@
 1. Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan operator relasional?
+
    Karena variabel yang digunakan bertipe boolean
 2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya?
+
    Program tidak akan berjalan dan akan langsung selesai
 
 1. Apa fungsi dari sintaks break?
+
    Untuk menghentikan atau untuk mengakhiri jalannya program
 2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?
+
    Digunakan untuk menjalankan program apabila tidak ada nilai case yang sesuai dalam switch
 
 1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?
