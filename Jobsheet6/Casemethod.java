@@ -5,7 +5,7 @@ public class Casemethod {
         Scanner sc = new Scanner(System.in);
 
         String nama, nim;
-        double uts1, uas1, tugas1, uts2, uas2, tugas2;
+        int uts1, uas1, tugas1, uts2, uas2, tugas2;
         double nilai_akhir1, nilai_akhir2, rata_rata;
         String huruf1, huruf2, status1, status2, statusSemester;
 
@@ -17,19 +17,19 @@ public class Casemethod {
 
         System.out.println("\n--- Mata Kuliah 1: Algoritma dan Pemrograman ---");
         System.out.print("Nilai UTS   : ");
-        uts1 = sc.nextDouble();
+        uts1 = sc.nextInt();
         System.out.print("Nilai UAS   : ");
-        uas1 = sc.nextDouble();
+        uas1 = sc.nextInt();
         System.out.print("Nilai Tugas : ");
-        tugas1 = sc.nextDouble();
+        tugas1 = sc.nextInt();
 
         System.out.println("\n--- Mata Kuliah 2: Struktur Data ---");
         System.out.print("Nilai UTS   : ");
-        uts2 = sc.nextDouble();
+        uts2 = sc.nextInt();
         System.out.print("Nilai UAS   : ");
-        uas2 = sc.nextDouble();
+        uas2 = sc.nextInt();
         System.out.print("Nilai Tugas : ");
-        tugas2 = sc.nextDouble();
+        tugas2 = sc.nextInt();
         
         nilai_akhir1 = (uts1 * 0.3) + (uas1 * 0.4) + (tugas1 * 0.3);
         nilai_akhir2 = (uts2 * 0.3) + (uas2 * 0.4) + (tugas2 * 0.3);
@@ -48,6 +48,7 @@ public class Casemethod {
         if (nilai_akhir1 >= 60) {status1 = "Lulus";
 } else {status1 = "Tidak Lulus";
 }
+
 if (nilai_akhir2 >= 60) {status2 = "Lulus";
 } else {status2 = "Tidak Lulus";
 }
