@@ -24,4 +24,4 @@
    Program diawali dengan pemeriksaan status bebas kompen. Jika mahasiswa sudah bebas kompen, program akan dilanjutkan ke tahap pemeriksaan log bimbingan. Namun, jika
    belum bebas kompen, program akan menampilkan pesan “Gagal! Mahasiswa masih memiliki tanggungan kompen.” Pada tahap pemeriksaan log bimbingan, mahasiswa dinyatakan
    memenuhi syarat jika log Pembimbing 1 minimal delapan kali dan Pembimbing 2 minimal empat kali. Jika salah satu atau keduanya belum terpenuhi, program akan
-   menampilkan pesan gagal sesuai dengan kondisi yang terjadi.
+   menampilkan pesan gagal sesuai dengan kondisi yang terjad
