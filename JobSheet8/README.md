@@ -1,5 +1,6 @@
 	1. Jika pada perulangan for, inisialisasi i=1 diubah menjadi i=0, apa akibatnya? Mengapa bisa demikian?
 Akibatnya, program akan menampilkan sebanyak n+1. Hal ini terjadi karena pada awalnya variabel i diinisialisasi dengan nilai 1, sehingga perulangan berjalan sebanyak n kali. Namun, ketika inisialisasi diubah menjadi i = 0, maka perulangan dimulai dari 0 hingga n.
+
 	2. Jika pada perulangan for, kondisi i<=n diubah menjadi i<n, bagaimana bentuk outputnya jika input n=5 ? Mengapa hasilnya berbeda?
 Bentuk output ketika n=5 adalah empat bintang. Perbedaan hasil ini terjadi karena kondisi perulangannya diubah, setelah kondisi diubah menjadi i < n, perulangan hanya dijalankan untuk nilai i = 1, 2, 3, dan 4. Ketika i mencapai 5, perulangan berhenti. Akibatnya, jumlah perulangan berkurang menjadi empat kali.
 	3. Jika pada perulangan for, kondisi i<=n diubah menjadi i>n, apa akibatnya? Mengapa bisa demikian?
