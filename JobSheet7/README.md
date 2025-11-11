@@ -1,7 +1,7 @@
 	1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program Percobaan 1!
-    Inisialisasi: int i = 1
-    Kondisi: I <= 10
-    Update: i++
+Inisialisasi: int i = 1
+Kondisi: I <= 10
+Update: i++
     
 	2. Mengapa variabel tertinggi diinisialisasi 0 dan terendah diinisialisasi 100? Apa yang terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0?
 Variabel tertinggi diinisialisasi dengan nilai 0 dan variabel terendah diinisialisasi dengan nilai 100 karena diasumsikan bahwa rentang nilai mahasiswa yang valid berada antara 0 hingga 100, sehingga setiap nilai yang dimasukkan pasti lebih besar dari 0 dan lebih kecil dari 100. Jika dibalik Program akan selalu menganggap nilai tertinggi sebagai 100 dan nilai terendah sebagai 0. Akibatnya, variabel tertinggi akan tetap bernilai 100 meskipun nilai tertinggi yang sebenarnya lebih rendah. Hal ini tentu menghasilkan output yang tidak sesuai dengan data sebenarnya.
