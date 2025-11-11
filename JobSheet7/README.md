@@ -1,6 +1,8 @@
 	1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program Percobaan 1!
 Inisialisasi: int i = 1
+
 Kondisi: I <= 10
+
 Update: i++
     
 	2. Mengapa variabel tertinggi diinisialisasi 0 dan terendah diinisialisasi 100? Apa yang terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0?
