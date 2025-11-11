@@ -9,21 +9,21 @@ Update: i++
 Variabel tertinggi diinisialisasi dengan nilai 0 dan variabel terendah diinisialisasi dengan nilai 100 karena diasumsikan bahwa rentang nilai mahasiswa yang valid berada antara 0 hingga 100, sehingga setiap nilai yang dimasukkan pasti lebih besar dari 0 dan lebih kecil dari 100. Jika dibalik Program akan selalu menganggap nilai tertinggi sebagai 100 dan nilai terendah sebagai 0. Akibatnya, variabel tertinggi akan tetap bernilai 100 meskipun nilai tertinggi yang sebenarnya lebih rendah. Hal ini tentu menghasilkan output yang tidak sesuai dengan data sebenarnya.
 
 	3. Jelaskan fungsi dan alur kerja dari potongan kode berikut!
-if (nilai > tertinggi) {
+	if (nilai > tertinggi) {
     tertinggi = nilai;
-}
-if (nilai < terendah) {
+	}
+	if (nilai < terendah) {
     terendah = nilai;
-}
+	}
 Kode tersebut berfungsi untuk melacak dan memperbarui nilai tertinggi serta nilai terendah dari sekumpulan nilai yang dimasukkan. Ketika sebuah nilai baru diperiksa, program akan membandingkannya dengan nilai tertinggi yang telah dicatat, jika nilai tersebut lebih besar, maka variabel tertinggi diperbarui dan sebaliknya.
 
 	1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
-if (nilai < 0 || nilai > 100) {
-    System.out.println(x:"Nilai tidak valid. Masukkan lagi nilai yang valid!");
-    continue;
-}
-a. nilai < 0 || nilai > 100 
-b. continue
+	if (nilai < 0 || nilai > 100) {
+	System.out.println(x:"Nilai tidak valid. Masukkan lagi nilai yang valid!");
+	continue;
+	}
+	a. nilai < 0 || nilai > 100 
+	b. continue
 Kondisi nilai < 0 || nilai > 100 digunakan untuk mendeteksi nilai yang tidak valid, yaitu nilai yang bernilai negatif atau lebih dari 100. Jika kondisi tidak valid maka akan menampilkan pesan kesalahan, dan meminta pengguna memasukkan nilai ulang.
 
 	2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
